@@ -1,0 +1,23 @@
+<!--
+    not greater than 4 million is 4e + 6
+-->
+<html>
+<head>
+    <script>
+
+    ( function findcharacter() {
+        var str = "milind you can do it ";
+                for( var i = 0 ; i < 10 ; i++) {
+                    var x = str.charAt(5);
+                    document.write(x);
+                    console.log(x);
+                }
+              
+    }  
+    ()); 
+</script>
+</head>    
+<body>
+    <h1 class="Heading">Character</h1>
+</body>
+</html>
